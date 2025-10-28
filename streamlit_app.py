@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Maal-Points Game", layout="wide")
+st.set_page_config(page_title="Marraige Cards Game Calculator", layout="wide")
 
 
 def init():

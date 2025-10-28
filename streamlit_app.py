@@ -37,14 +37,14 @@ with st.sidebar:
             ]
             st.session_state.round_index = 0
             st.session_state.started = True
-            st.experimental_rerun()
+            st.rerun()
     else:
         st.write("Game started")
         if st.button("Reset game"):
             for k in list(st.session_state.keys()):
                 if k not in ["page_config"]:
                     del st.session_state[k]
-            st.experimental_rerun()
+            st.rerun()
 
 st.markdown("---")
 
